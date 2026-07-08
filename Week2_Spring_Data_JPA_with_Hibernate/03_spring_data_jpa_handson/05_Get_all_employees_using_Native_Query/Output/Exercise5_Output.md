@@ -4,7 +4,7 @@
 - Employee records were inserted successfully.
 - Native SQL returned every employee row.
 
-## Expected Console Output
+##  Console Output
 ```text
 Asha -> IT
 Ravi -> HR

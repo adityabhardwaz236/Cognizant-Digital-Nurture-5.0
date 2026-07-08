@@ -4,7 +4,7 @@
 - Employee salaries were stored successfully.
 - HQL returned the average salary.
 
-## Expected Console Output
-```text
+##  Console Output
+
 60000.0
 ```
