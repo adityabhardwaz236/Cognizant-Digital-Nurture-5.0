@@ -1,0 +1,6 @@
+Employee update service created.
+Run:
+mvn spring-boot:run
+
+Invoke:
+curl -i -X PUT -H "Content-Type: application/json" -d '{"id":1,"name":"John","department":"Engineering"}' http://localhost:8090/employees

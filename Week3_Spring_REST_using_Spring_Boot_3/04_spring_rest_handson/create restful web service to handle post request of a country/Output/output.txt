@@ -1,0 +1,11 @@
+POST request for country service created.
+Run:
+mvn spring-boot:run
+
+Invoke:
+curl -i -X POST -s http://localhost:8090/countries
+
+Expected response headers:
+HTTP/1.1 200
+Content-Length: 0
+Date: Tue, 01 Oct 2019 06:41:49 GMT
