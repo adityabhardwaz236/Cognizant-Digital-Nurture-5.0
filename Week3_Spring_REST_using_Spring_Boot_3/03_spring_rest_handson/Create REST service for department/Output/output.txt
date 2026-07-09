@@ -1,0 +1,10 @@
+Department REST service project created.
+Endpoint:
+GET /departments
+
+Sample response:
+[
+  {"id":1,"name":"Engineering"},
+  {"id":2,"name":"HR"},
+  {"id":3,"name":"Finance"}
+]

@@ -1,0 +1,10 @@
+Employee XML configuration project created.
+Endpoints:
+GET /employees
+
+Sample response:
+[
+  {"id":1,"name":"John Doe","department":"Engineering"},
+  {"id":2,"name":"Jane Smith","department":"HR"},
+  {"id":3,"name":"Alex Johnson","department":"Finance"}
+]
