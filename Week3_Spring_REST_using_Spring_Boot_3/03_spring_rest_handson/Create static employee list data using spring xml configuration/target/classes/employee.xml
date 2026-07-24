@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util
+        https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="john" class="com.cognizant.springlearn.Employee">
+        <property name="id" value="1"/>
+        <property name="name" value="John Doe"/>
+        <property name="department" value="Engineering"/>
+    </bean>
+
+    <bean id="jane" class="com.cognizant.springlearn.Employee">
+        <property name="id" value="2"/>
+        <property name="name" value="Jane Smith"/>
+        <property name="department" value="HR"/>
+    </bean>
+
+    <bean id="alex" class="com.cognizant.springlearn.Employee">
+        <property name="id" value="3"/>
+        <property name="name" value="Alex Johnson"/>
+        <property name="department" value="Finance"/>
+    </bean>
+
+    <util:list id="employees">
+        <ref bean="john"/>
+        <ref bean="jane"/>
+        <ref bean="alex"/>
+    </util:list>
+</beans>
